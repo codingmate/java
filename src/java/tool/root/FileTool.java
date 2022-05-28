@@ -1,4 +1,4 @@
-package java.tool;
+package java.tool.root;
 
 import java.io.File;
 import java.util.List;
@@ -13,6 +13,7 @@ public interface FileTool {
 	
 	public String getParentDirectory(File file);
 	
-	public List<String> getChildFileNameList(File file);
+	public List<File> getChildFileList(File file);
+	
 	
 }
