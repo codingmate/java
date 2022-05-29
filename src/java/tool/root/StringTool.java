@@ -8,9 +8,5 @@ public interface StringTool extends DateTool, RegExTool{
 	public boolean isIcldUcdStr(String str);
 	public String ucdToStr(String ucdIcldStr);
 	public Character ucdToChar(String ucd);
-	
-			
-	
-	
-	
+
 }
