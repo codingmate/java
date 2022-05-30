@@ -1,4 +1,4 @@
-package java.tool;
+package main.tool;
 
 import java.util.Date;
 
